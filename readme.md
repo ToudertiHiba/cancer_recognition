@@ -12,28 +12,13 @@ This project focuses on developing a machine learning model for classifying tumo
 - `pyproject.toml`: Poetry configuration file containing dependencies and project metadata.
 - `README.md`: This file providing an overview of the project and instructions for running it.
 
+
 ## Getting Started
+1. Install Poetry for dependency management: [Poetry Installation Guide](https://python-poetry.org/docs/#installation).
+2. Run `poetry install` to install the project dependencies.
+3. Ensure you have the necessary dataset (`cancer.csv`) in the project directory.
+``
 
-To get started with the project, follow these steps:
-
-1. **Clone the Repository**: 
-   ```bash
-   git clone https://github.com/yourusername/tumor-classification.git
-   cd tumor-classification
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   poetry install
-   ```
-
-3. **Download Dataset**:
-   - Download the dataset `cancer.csv` from [Kaggle](https://www.kaggle.com/datasets) and place it in the project directory.
-
-4. **Run the Main Script**:
-   ```bash
-   python cancer_recognition.py
-   ```
 
 ## Dependencies
 
